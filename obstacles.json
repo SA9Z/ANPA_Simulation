@@ -1,0 +1,10 @@
+{
+    "obstacles": [
+        {"type": "circle", "x": 400, "y": 300, "radius": 20},
+        {"type": "circle", "x": 600, "y": 500, "radius": 25},
+        {"type": "circle", "x": 700, "y": 200, "radius": 18},
+        {"type": "circle", "x": 350, "y": 600, "radius": 22},
+        {"type": "circle", "x": 550, "y": 350, "radius": 15},
+        {"type": "moving", "x": 650, "y": 400, "radius": 12, "v": [1.5, 0]}
+    ]
+}

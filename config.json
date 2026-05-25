@@ -1,0 +1,43 @@
+{
+  "window": {
+    "fullscreen": false,
+    "default_width": 1200,
+    "default_height": 800
+  },
+  "world": {
+    "width": 1200,
+    "height": 800,
+    "cell_size": 160,
+    "grid_cols": 5,
+    "grid_rows": 5
+  },
+  "auv": {
+    "length": 8,
+    "max_speed": 30,
+    "turn_rate": 60.0,
+    "sensor_range": 100,
+    "sensor_angle": 60
+  },
+  "navigation": {
+    "k": 1.8,
+    "d_detect": 35,
+    "t_max": 45,
+    "f_normal": 10,
+    "f_att": 20,
+    "attention_samples": 3,
+    "r_slid_factor": 2.5,
+    "v_cruise": 12
+  },
+  "mission": {
+    "meander_step_x": 60,
+    "meander_step_y": 50,
+    "zone_width": 160,
+    "zone_height": 160
+  },
+  "visualization": {
+    "show_zones": true,
+    "show_trajectory": true,
+    "show_sensor_cone": true,
+    "show_grid_labels": true
+  }
+}
